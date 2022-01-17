@@ -1,0 +1,24 @@
+{
+  "name": "yt-queue-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd client && npm run dev\" \"cd api && npm run api\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renzpulvira/yt-queue-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renzpulvira/yt-queue-scraper/issues"
+  },
+  "homepage": "https://github.com/renzpulvira/yt-queue-scraper#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
